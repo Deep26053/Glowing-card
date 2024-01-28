@@ -7,11 +7,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .card{
-    direction: flex;
-    align-items: center;
-    justify-content: center;
+   
     width: 300px;
-    height: 290px;
+    height: 390px;
     cursor: pointer;
     background: linear-gradient(180deg,orange,rgb(249,70,100),rgb(244,43,244));
     transition: all 0.3s;
@@ -20,25 +18,116 @@ body{
 }
 
 .child-card{
-    direction: flex;
-    align-items: center;
-    justify-content: center;
+   
     width: 100%;
     height: 100%;
     background-color: black;
     transition: all 0.3s;
-    scale: 0.99;
+    object-fit: cover;
     
 }
 .card:hover{
 
     border-radius: 20px;
-    box-shadow: 0px 0px 300px #18dde9;
-
+    box-shadow: 0px 0px 180px #18dde9;
+    
 
 }
 .card:hover .child-card{
-
+    
     scale: 0.99;
     border-radius: 20px;
+    
 }
+.child-card .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: large;
+    color:white;
+}
+.child-card .id .user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 76;
+    font-size: 14px;
+    margin-top: 50px;
+    color: white;
+
+}
+.child-card .id .pass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 76;
+    font-size: 14px;
+    color: white;
+
+}
+.child-card .id .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: smaller;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    margin-left: 68px;
+    background-color: rgba(255, 255, 255, 0.683);
+    box-shadow: 0 5px 10px rgb(15, 1, 1);
+    border-radius: 12px;
+    border: none;
+    color: black;
+    padding-left: 8px;
+    margin-top: 1px;
+
+}
+.child-card .id .password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 68px;
+    font-size: smaller;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 16px;
+    background-color: rgba(255, 255, 255, 0.683);
+    box-shadow: 0 5px 10px rgb(15, 1, 1);
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding-left: 8px;
+    
+}
+.button .login{
+    opacity: 0.6;
+    background-color: beige;
+    width: 56px;
+    height: 26px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 5px 10px rgb(15, 1, 1);
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-left: 86px;
+    }
+    .button .signin{
+    opacity: 0.6;
+    background-color: beige;
+    width: 56px;
+    height: 26px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 5px 10px rgb(15, 1, 1);
+    margin-right: 16px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    }
+    .id .email:hover{
+        
+
+    }
+    .card .id .password:hover{
+        
+    }
