@@ -8,8 +8,8 @@ body{
 }
 .card{
    
-    width: 300px;
-    height: 390px;
+    width: 324px;
+    height: 450px;
     cursor: pointer;
     background: linear-gradient(180deg,orange,rgb(249,70,100),rgb(244,43,244));
     transition: all 0.3s;
@@ -43,7 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: large;
     color:white;
 }
@@ -52,7 +52,7 @@ body{
     flex-direction: column;
     margin-left: 76;
     font-size: 14px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: white;
 
 }
@@ -61,6 +61,7 @@ body{
     flex-direction: column;
     margin-left: 76;
     font-size: 14px;
+    padding-top: 12px;
     color: white;
 
 }
@@ -99,6 +100,7 @@ body{
     color: black;
     padding-left: 8px;
     
+    
 }
 .button .login{
     opacity: 0.6;
@@ -110,6 +112,8 @@ body{
     box-shadow: 0 5px 10px rgb(15, 1, 1);
     margin-right: 16px;
     margin-top: 16px;
+    padding-left:50 ;
+    padding-right: 90;
     margin-left: 86px;
     }
     .button .signin{
@@ -123,6 +127,40 @@ body{
     margin-right: 16px;
     margin-top: 26px;
     margin-bottom: 20px;
+    padding-left: 59px;
+    }
+    .id .forgot{
+        margin-left: 190;
+        color:white;
+        font-size: 11px;
+        margin-bottom: 6;
+        
+    }
+    .child-card .name2{
+        color: white;
+        font-size: 11;
+        margin-left: 116;
+        margin-top: 24px;
+    }
+    img{
+        background: white;
+        width: 24;
+        margin-right: 6px;
+        border-radius: 12px;
+        margin-bottom: 22px;
+    }
+    .image1{
+        background: white;
+        width: 24;
+        margin-left: 112px;
+        border-radius: 12px;
+    }
+    .child-card .up{
+        color: white;
+        font-size: 14px;
+        margin-left: 134px;
+        
+        
     }
     .id .email:hover{
         
@@ -131,3 +169,22 @@ body{
     .card .id .password:hover{
         
     }
+    .button .login:hover{
+        background-color: beige;
+         opacity: 0.8;
+     }
+     .button .login:active{
+     
+         background-color: beige;
+         opacity: 1;
+     }
+     .button .signin:hover{
+        background-color: beige;
+         opacity: 0.8;
+     }
+     .button .signin:active{
+     
+         background-color: beige;
+         opacity: 1;
+     }
+     
